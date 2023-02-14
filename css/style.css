@@ -528,3 +528,22 @@ footer
         font-size: 24px;
     }
 }
+.seccionvideo{
+    display: flex;
+    width: 1130px;
+    height: 350px;
+}
+
+.seccionvideo iframe{
+    width: 0px;
+    flex-grow:1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.seccionvideo iframe:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+}
